@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Портфолио | Веб-разработчик</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><strong>Web</strong>Dev</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Привет, я <em>Иван</em> 👋</h1>
+                <p>Я начинающий <span>веб-разработчик</span>, создающий красивые и адаптивные интерфейсы.</p>
+                <a href="#contact" class="btn">Связаться со мной</a>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Мои проекты</h2>
+            <div class="projects-grid">
+                <article class="card">
+                    <img src="https://picsum.photos/id/0/400/300" alt="Ноутбук с кодом">
+                    <h3>Лендинг кофейни</h3>
+                    <p>Адаптивный сайт с использованием HTML и CSS.</p>
+                </article>
+                <article class="card">
+                    <img src="https://picsum.photos/id/1/400/300" alt="Рабочий стол">
+                    <h3>Dashboard панель</h3>
+                    <p>Интерфейс с использованием CSS Grid.</p>
+                </article>
+                <article class="card">
+                    <img src="https://picsum.photos/id/2/400/300" alt="Компьютер">
+                    <h3>Сайт-визитка</h3>
+                    <p>Проект с анимациями и современным дизайном.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Оставьте заявку</h2>
+            <form action="#" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Иван Иванов" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="email@example.com" required>
+                </div>
+                <button type="submit" class="btn submit-btn">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Мое Портфолио. Все права защищены.</p>
+    </footer>
+
+    <a href="#" class="scroll-top" aria-label="Наверх">↑</a>
+</body>
+</html>
